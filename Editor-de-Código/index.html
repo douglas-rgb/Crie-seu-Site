@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor de Código</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="section-container">
+ <div class="editor-container">
+    <div class="code-inputs">
+      <h2>HTML</h2>
+      <textarea id="html-code" placeholder="<h1>Olá mundo!</h1>"></textarea>
+
+      <h2>CSS</h2>
+      <textarea id="css-code" placeholder="h1 { color: red; }"></textarea>
+
+      <h2>JavaScript</h2>
+      <textarea id="js-code" placeholder="console.log('Olá!')"></textarea>
+
+      <button onclick="renderCode()">Executar Código</button>
+    </div>
+
+    <div class="preview">
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+    </section>
+
+ 
+
+  <script src="scripts.js"></script>
+</body>
+</html>

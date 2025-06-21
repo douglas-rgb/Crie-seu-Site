@@ -1,0 +1,27 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  background: #05093d;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.service {
+  background: #eee;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
